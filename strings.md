@@ -20,3 +20,12 @@ print(str1+str2)
 # This will give an error
 but we can do this using an str() function and it will convert the the int into str then you can concatenate
 ```
+
+* You can also use the **+=** operator to concatenate strings
+
+```Python
+string = "Cat"
+string += " Dogs"
+print(string)
+#This will print out Cat Dogs
+```
