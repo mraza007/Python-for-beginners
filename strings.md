@@ -36,4 +36,8 @@ There's a new method to interpolate the strings
 ```Python
 x = 10
 print(f"I have told you " {x}  times to clean the floor correctly")
+# This will print I have told you 10 times to clean the floor correctly
+# This a new way of interpolating string 
+y = 'I have told you {x} times to clean the floor correctly'.format(x)
+# This an old way of doing it and its applicable in python 2.7
 ```
