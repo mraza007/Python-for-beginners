@@ -57,3 +57,8 @@ print(x[0])
 * int () this is a built-in function that is used to convert a number into an integer.
 * float() This is used to convert the number into a float
 * str() This is used to convert to a string
+**Note: We used input() function to get the user input**
+```Python3
+x = input('What is your age') #this will prompt to the user
+print(x) # whatever user types it will be printed out
+```
