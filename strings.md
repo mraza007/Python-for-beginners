@@ -29,3 +29,11 @@ string += " Dogs"
 print(string)
 #This will print out Cat Dogs
 ```
+
+#### Formatting Strings
+There's a new method to interpolate the strings 
+* The method is called the F-strings this will help you convert the int value into a string 
+```Python
+x = 10
+print(f"I have told you " {x}  times to clean the floor correctly")
+```
