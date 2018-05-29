@@ -50,3 +50,10 @@ print(x[0])
 # [] We use this for index
 # This is useful for lists
 ```
+
+#### Converting DataTypes
+* We use built-in functions to convert the data types.
+* For example int() str() float() 
+* int () this is a built-in function that is used to convert a number into an integer.
+* float() This is used to convert the number into a float
+* str() This is used to convert to a string
