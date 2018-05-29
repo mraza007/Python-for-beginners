@@ -41,3 +41,12 @@ print(f"I have told you " {x}  times to clean the floor correctly")
 y = 'I have told you {x} times to clean the floor correctly'.format(x)
 # This an old way of doing it and its applicable in python 2.7
 ```
+
+#### String Index
+```Python3
+x = "Hello"
+print(x[0])
+#This will print out H 
+# [] We use this for index
+# This is useful for lists
+```
