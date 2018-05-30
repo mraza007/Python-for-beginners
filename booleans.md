@@ -45,6 +45,23 @@ else:
 | >= | Truthy if a is greater than or equal to b | a >= b  # True
 | <= | Truthy if a is less than or equal to b | a <= b  # True
 
+#### Logical Operators
+| Operator | What it does |
+| ------------- | ------------- |
+| And | Both values have to be true in order to be true |
+| Or | If one of the value is true then the entire thing is true |
+| Not | Its is like negation |
+
+```Python3
+state = input('Enter the state where you live')
+if state == 'NJ' or state == 'NY':
+    print('You live close to East Coast')
+else:
+    print('You live far away from the coast')
+# In this one of them has to be true
+```
+
+
 
 **Indentation really matters in Python Language and (:) These colons help us indent the blocks**
 **You can have multiple (elifs)**
