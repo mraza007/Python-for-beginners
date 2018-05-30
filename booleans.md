@@ -68,5 +68,16 @@ not age < 5
 # This will be true
 ```
 
+#### is vs ==
+* is and == operators are not the same
+* is operator compares two things and checks if they are stored at the same location in the memory
+* == operator checks if both values are true
+
+```Python3
+a = [1,2,3]
+b = [1,2,3]
+a == b #returns true
+a is b # returns false
+```
 **Indentation really matters in Python Language and (:) These colons help us indent the blocks**
 **You can have multiple (elifs)**
