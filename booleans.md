@@ -20,5 +20,10 @@ else:
     print('Nothing is valid')
 ```
 
+#### Falsiness and Truthiness
+* This really matter
+* Empty strings, None , 0 has a false value
+* Everything else has true value 
+
 **Indentation really matters in Python Language and (:) These colons help us indent the blocks**
 **You can have multiple (elifs)**
