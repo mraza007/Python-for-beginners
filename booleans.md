@@ -61,7 +61,12 @@ else:
 # In this one of them has to be true
 ```
 
-
+```Python3
+#Not operator Example
+age = 10
+not age < 5
+# This will be true
+```
 
 **Indentation really matters in Python Language and (:) These colons help us indent the blocks**
 **You can have multiple (elifs)**
