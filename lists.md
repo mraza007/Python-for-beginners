@@ -68,3 +68,10 @@ x.append([5,6,7,8])
 x.extend([5,6,7,8,9])
 #This will print out [1,2,3,4,5,6,7,8,9]
 ```
+* if want to add one item to the end of the list use append() if you are adding more than one item use extend()
+* insert() method is used to add the item to the given position in the list
+```Python3
+x = [1,2,3,4]
+x.insert(1,'hi')
+[1,'hi',2,3,4]
+```
