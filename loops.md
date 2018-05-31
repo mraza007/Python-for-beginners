@@ -57,3 +57,18 @@ while num < 10:
     num +=1
     print(num)
 ```
+
+
+#### Importance of Break keyword in Python
+* It gives us the ability to get out of the loop
+```Python
+while True:
+    command = input('Type exit to get out of this')
+    if command == 'exit':
+        break
+
+
+for x in range(1,10):
+    if x == 3:
+        break
+```
