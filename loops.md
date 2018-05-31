@@ -26,3 +26,13 @@ for letter in "Hello":
 * range(7) if we give in one parameter this will only print out numbers 0 to 6 
 * range(1,8) if we give in two parameters this will print out numbers 1 to 7 
 * range(1,10,2) In this example the thir parameter is used to tell how many steps should be skipped and this will print odd numbers 
+* range helps you generate the sequence of number its a python built in function
+
+```Python3
+x = input('How many times I have told you clean the room ')
+y = int(x)
+for time in range(y):
+    print(f'{time}: Clean Your room')
+# A simple example of loops
+
+```
