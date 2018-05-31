@@ -2,7 +2,7 @@
 * What loops are in Python
 * While loops and For Loops in Python
 
-#### For Loops 
+### For Loops 
 * They can be used to iterate the number of elements in the lists,
 * They can also be used to iterate the strings
 * range function is used to iterate through numbers
@@ -35,4 +35,25 @@ for time in range(y):
     print(f'{time}: Clean Your room')
 # A simple example of loops
 
+```
+
+### While Loops
+* While loops are just like for loops
+* While loops only run if the conditional statement is true otherwise it will stop
+```Python3
+while some_condition:
+    #do this
+# An example 
+user_input = None
+while user_input != 'please':
+    print('Sorry Access Denied')
+```
+* We need to be careful with while loops since they will continue forever if the condition is not true **It will ruin the program**
+
+```Python3
+#Another While Loop Example
+num = 0
+while num < 10:
+    num +=1
+    print(num)
 ```
