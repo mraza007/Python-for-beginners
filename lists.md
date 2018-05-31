@@ -55,3 +55,16 @@ while i < len(list):
     i += 1 
 #len() function tells us how many items are there in the list        
 ```
+**Note: len() can also be used on the strings**
+### List Methods
+* Built-in python list methods 
+* append () this method will add the item to the end of the list.
+* extend() this method adds all the values at the end of the list
+```Python3
+x = [1,2,3,4,5]
+x.append([5,6,7,8])
+# This print [1,2,3,4,5,[6,7,8,9]]
+#Lets use the extend method on this
+x.extend([5,6,7,8,9])
+#This will print out [1,2,3,4,5,6,7,8,9]
+```
