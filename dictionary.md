@@ -75,3 +75,7 @@ name in info
 John in info.values()
 #This will also print true because its present in the dictionary
 ```
+
+### Dictionary Methods
+* .clear() method clears the entire dictionary
+* .copy() makes the entire copy of the list
