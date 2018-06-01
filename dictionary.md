@@ -33,3 +33,18 @@ info = {
 }
 info['name'] #This will print John
 ```
+
+* To iterate values and keys at once we use this function .keys() and .values()
+ 
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+for x in info.keys(): #This will print keys
+  print(x)
+print(' ')
+for y in info.values(): #This will print values
+  print(y)  
+```
