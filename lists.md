@@ -145,7 +145,7 @@ y[0],y[1] = y[1],y[0]
 * List comprehensions are used for creating new list from another iterables.
 * Interesting articles on  [List Comprehension](https://hackernoon.com/list-comprehension-in-python-8895a785550b)
 ```Python
-nums = [1,2,3,4,5]
+nums = [1,2,3,4,5,6,7,8]
 y = [x*x for x in nums]
 # This will print 
 [1,4,9,16,25]
@@ -158,4 +158,7 @@ for x in nums:
 # This can also be used to convert into strings
 [str(x) for x in nums]
 # This will print everything in the list that was present in int.
+# We can also use the conditonal statements in lists
+[x for x in num if x%2==0]
+#This will print all the even numbers in the lists
 ```
