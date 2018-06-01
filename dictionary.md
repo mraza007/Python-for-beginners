@@ -100,3 +100,15 @@ new_user = {
     'city':'False'
 }
 ```
+
+* .get() is used to retrieve the value from the dictionary
+
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+info.get('name')
+#This will print John
+```
