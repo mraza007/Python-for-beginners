@@ -136,4 +136,22 @@ x[0:2]
 x[0:7:2]
 #This will print [2,4,6]
 # Easy way to reverse a list x[::-1]
+#Swapping Lists
+y = ['John','Jason']
+y[0],y[1] = y[1],y[0]
+```
+
+### List Comprehension
+* List comprehensions are used for creating new list from another iterables.
+* Interesting articles on  [List Comprehension](https://hackernoon.com/list-comprehension-in-python-8895a785550b)
+```Python
+nums = [1,2,3,4,5]
+y = [x*x for x in nums]
+# This will print 
+[1,4,9,16,25]
+# We can also use a loop
+for x in nums:
+    sqaure = x*x
+    nums.append(square)
+#This piece of code is doing the same thing but the only difference is that the other method is much easier
 ```
