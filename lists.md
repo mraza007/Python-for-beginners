@@ -126,5 +126,14 @@ x = ['1','2','3']
 ```Python
 #lists slicing
 # some_list[start:end:step]
+# start is to where to start
+# end is to where to end
+# Step is the intervals
+
 x = [1,2,3,4,5,6]
+x[0:2]
+# This will print [1,2] 3 is not included becuase its exclusive
+x[0:7:2]
+#This will print [2,4,6]
+
 ```
