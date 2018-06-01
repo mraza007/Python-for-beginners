@@ -6,10 +6,30 @@
 
 #### This is how a dictionary looks like
 **Note: key-value pairs are separated by the commas **
+
 ```Python
 info = {
     'name':'John',
     'city':'New York',
     'own_a_car':True,
 }
+#We can also use the dict() built in python function to generate keys
+x = dict(name='John',age='21')
+print(x)
+#This will print x
+{
+    'name':'John'
+    'age':'24'
+}
+```
+
+* To access the values in the dictionary we pass in the value
+
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+info['name'] #This will print John
 ```
