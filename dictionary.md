@@ -79,3 +79,24 @@ John in info.values()
 ### Dictionary Methods
 * .clear() method clears the entire dictionary
 * .copy() makes the entire copy of the list
+* .fromkeys([])
+
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+info.clear() # This will clear the whole dictionary
+a = info.copy()
+print(a)
+#This will print the entire info dictionary
+
+new_user = {}.fromkeys(['name','email','city'],'False')
+# This will create a new dictionary
+new_user = {
+    'name':'False'
+    'email':'False'
+    'city':'False'
+}
+```
