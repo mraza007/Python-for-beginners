@@ -60,3 +60,18 @@ for keys,values in info.items():
     print(keys,values)
     #This will print keys and values
 ```
+
+#### To check if keys and values are present in the dictionary
+
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+name in info
+# This will print true because name is key in info
+
+John in info.values()
+#This will also print true because its present in the dictionary
+```
