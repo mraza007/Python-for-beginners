@@ -162,3 +162,4 @@ for x in nums:
 [x for x in num if x%2==0]
 #This will print all the even numbers in the lists
 ```
+
