@@ -118,3 +118,5 @@ info.get('name')
 * .pop() In this method we have to provide the key
 * .popitem()removes a random key in the dictionary
 * .update()
+
+### Dictionary Comprehension
