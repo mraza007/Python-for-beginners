@@ -135,5 +135,5 @@ x[0:2]
 # This will print [1,2] 3 is not included becuase its exclusive
 x[0:7:2]
 #This will print [2,4,6]
-
+# Easy way to reverse a list x[::-1]
 ```
