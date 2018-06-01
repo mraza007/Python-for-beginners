@@ -45,6 +45,18 @@ info = {
 for x in info.keys(): #This will print keys
   print(x)
 print(' ')
-for y in info.values(): #This will print values
+for y in info.values(): #This will print valuesq
   print(y)  
+```
+
+* To iterate both values and keys together we use .items()
+```Python
+info = {
+    'name':'John',
+    'city':'New York',
+    'own_a_car':True,
+}
+for keys,values in info.items():
+    print(keys,values)
+    #This will print keys and values
 ```
