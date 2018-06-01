@@ -150,8 +150,12 @@ y = [x*x for x in nums]
 # This will print 
 [1,4,9,16,25]
 # We can also use a loop
+new_list =[]
 for x in nums:
     sqaure = x*x
-    nums.append(square)
+    new_list.append(square)
 #This piece of code is doing the same thing but the only difference is that the other method is much easier
+# This can also be used to convert into strings
+[str(x) for x in nums]
+# This will print everything in the list that was present in int.
 ```
