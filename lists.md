@@ -120,4 +120,11 @@ x = ['1','2','3']
 #Output 1 2 3
 #this will add the space
 ```
-      
+
+### Lists Slicing      
+* It is used to make new lists from old lists
+```Python
+#lists slicing
+# some_list[start:end:step]
+x = [1,2,3,4,5,6]
+```
