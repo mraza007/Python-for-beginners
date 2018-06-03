@@ -120,3 +120,12 @@ info.get('name')
 * .update()
 
 ### Dictionary Comprehension
+* They use the same syntax like the lists we just use the dictionary brackets
+* It will iterate over keys by default by we can use the .items() to iterate over values too
+
+```Python
+a = dict(a=1,b=2,c=3,d=4)
+b = {key:value **2 for key,value in a.items()}
+#This will print out the the square of each number in b 
+
+```
