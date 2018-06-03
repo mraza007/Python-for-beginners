@@ -126,6 +126,9 @@ info.get('name')
 ```Python
 a = dict(a=1,b=2,c=3,d=4)
 b = {key:value **2 for key,value in a.items()}
-#This will print out the the square of each number in b 
+#This will print out the the square of each number in b
+# This will allow us to make dictionaries out of a dictionary that's one of the reason we use the dictionary comprehension.
+#Another example of dictionary comprehension.
+c = {key:value+2 for key,value in a.items()}
 
 ```
