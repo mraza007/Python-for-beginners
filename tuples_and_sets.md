@@ -17,3 +17,11 @@ x = (1,2,3,4,5)
 * .index()
 
 # Sets in Python
+* There is no order and they don't have duplicate values
+* You can't use index to access the items because there is no order
+
+```Python
+set = {1,2,3,4}
+# This is how a set looks like
+a = set{(1,2,3)}
+```
