@@ -32,3 +32,22 @@ a = set{(1,2,3)}
 * .remove() it is used to remove something from the set
 * .discard() It is also used remove the element from the set
 * .clear() it removes everything from the set
+
+### Mathematical Methods in Sets
+* | This symbol represents union
+* & This represents intersection
+
+```Python
+a = {1,2,3,4}
+b = {2,3,5}
+a | b #This will print {1,2,3,4,5}
+a & b # This will print {2,3}
+```
+
+
+### Set Comprehension
+* basically its like every other comprehension we have seen
+```Python
+x = {1,2,3,4}
+b = {num+2 for num in x}
+```
