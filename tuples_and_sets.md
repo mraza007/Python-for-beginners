@@ -25,3 +25,10 @@ set = {1,2,3,4}
 # This is how a set looks like
 a = set{(1,2,3)}
 ```
+
+
+### Set Methods
+* .add() it is used to add something to a set
+* .remove() it is used to remove something from the set
+* .discard() It is also used remove the element from the set
+* .clear() it removes everything from the set
