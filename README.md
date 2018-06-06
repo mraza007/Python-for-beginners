@@ -11,6 +11,7 @@ This repo is focused towards people who are learning python for the first time.T
 * [lists](markdown-version/lists.md)
 * [Dictionaries](markdown-version/dictionary.md)
 * [Tuples & Sets](markdown-version/tuples_and_sets.md)
+* [Functions](markdown-version/functions.md)
  
 
 
