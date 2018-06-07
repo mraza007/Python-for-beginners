@@ -33,3 +33,25 @@ def square_of_two():
 ```
 
 #### Parameters in the Functions
+
+```Python
+def square(num):
+    return num**2
+# These parameters only exists in the functions
+def add(a,b):
+    return a+b    
+#Parameters should be named in a better way that makes sense
+```
+
+#### Parameters VS Arguements
+* Parameter is in the declaration of the function
+* Arguement is what we pass into the function
+
+```Python
+def multiply(a,b):
+    return a * b
+print(multiply(1,5))
+# a & b are parameters
+# 1 & 5 are arguements
+# Order matters
+```
