@@ -116,7 +116,7 @@ x.sort()
 #This will sort out the list
 # The output will be [1,2,3,4]
 x = ['1','2','3']
-' '.join(X)
+' '.join(x)
 #Output 1 2 3
 #this will add the space
 ```

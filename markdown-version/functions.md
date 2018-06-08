@@ -55,3 +55,37 @@ print(multiply(1,5))
 # 1 & 5 are arguements
 # Order matters
 ```
+
+### Common Mistakes Made while returning in a Function
+```Python3
+def sum_odd_num(numbers):
+    total = 0
+    for x in numbers:
+        if x%2 ==1:
+        `   total +=x
+        return total
+
+print(sum_odd_numbers([1,3,5]))        
+```
+* This function will not return the desired output instead it will return 1 because the return keyword is not indented correctly.
+```Python
+def sum_odd_num(numbers):
+    total = 0
+    for x in numbers:
+        if x%2 ==1:
+        total +=x
+    return total
+
+print(sum_odd_numbers([1,3,5]))  
+```
+
+* Now the function will return the sum of the odd numbers because we have idented the return keyword
+
+#### Default Parameters
+* We can also set the default values in the functions
+
+```Python
+def square(num,power=2):
+    return num **power
+#Even if we dont pass a value for the power it will retain its default value 2
+```
