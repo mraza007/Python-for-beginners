@@ -89,3 +89,55 @@ def square(num,power=2):
     return num **power
 #Even if we dont pass a value for the power it will retain its default value 2
 ```
+
+* Default parameters can help you save from errors
+* It makes our code more flexible
+* Default Parameters can be any values we can also pass functions inside of a function
+
+```Python
+def add(a,b):
+    return a+b
+#The math function takes in add function as a parameter also
+def math(a,b,fn=add):
+    return add(a,b)
+```
+
+#### Keyword Arguements
+* Using keyword arguements we can alter the order
+* The reason we use the keyword arguements is because it helps you cause less errors and makes it more explicit
+```Python
+def exponent(num,pow):
+    return num **pow;
+print(exponent(pow=2,num=3)) #This will return 9 
+```
+
+#### Scopes
+* There are rules where are variables can be accessed
+* Whenever we define a variable inside of a function it will be part of the function
+
+```Python
+x = 2
+def add_two(num):
+    return x+num
+#In this example the x variable is available outside the function
+
+def add_three(num):
+    y = 3
+    return num+y
+#In this example the y is just the part of the function and it cannot be accessed from outside    
+```
+
+* Global scope
+* A variable that is defined outside of the function it is global
+* If we want to manipulate a variable that is not defined inside of the local scope we use the keyword **global**.
+
+```Python
+total = 0
+def increment():
+    global total
+    total +=1
+    return total
+print(increment())
+```
+
+* **non local** keyword 
