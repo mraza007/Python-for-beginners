@@ -94,6 +94,7 @@ def square(num,power=2):
 * It makes our code more flexible
 * Default Parameters can be any values we can also pass functions inside of a function
 
+### Passing Functions inside of function
 ```Python
 def add(a,b):
     return a+b
