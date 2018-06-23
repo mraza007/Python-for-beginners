@@ -141,3 +141,20 @@ print(increment())
 ```
 
 * **non local** keyword 
+
+## Documenting Functions Better
+```Python
+"""
+This will allow us to document the function better
+# These are called the docstrings in python
+__doc__ they are used to document the functions and it helps us learn better.
+
+print.__doc__
+# All built in functions have a docstring
+
+def add(x,y):
+    """Add function will take two parameters x and y. Then adds them"""
+    return x + y
+print(add.__doc__)
+"""
+```
