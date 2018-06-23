@@ -159,3 +159,24 @@ def add(x,y):
 print(add.__doc__)
 """
 ```
+
+## ** and * Operators in the Functions
+
+*   * star operator allow us to pass in as much parameters we can and it gathers them as a tuple 
+*   The standard keyword is * args but you call it whatever you like.
+
+```Python3
+# Lets say we want to add 5 numbers we will write a function and pass 5 parameters
+def add(num1,num2,num3,num4,num5):
+    return num1+num2+num3+num4+num5
+print(add(1,2,3,4,5))
+
+#But what if we want to add 3 number with the same function then we have pass default values and it gets messy and takes a long time so therefore we use *args for function.
+
+def addition(*args):
+    total = 0
+    for num in args:
+        total+=num
+    return total
+#This is better function now
+```
