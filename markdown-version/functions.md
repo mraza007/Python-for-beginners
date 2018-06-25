@@ -163,7 +163,7 @@ print(add.__doc__)
 ## ** and * Operators in the Functions
 
 *   * star operator allow us to pass in as much parameters we can and it gathers them as a tuple 
-*   The standard keyword is * args but you call it whatever you like.
+*   The standard keyword is **args but you call it whatever you like.
 
 ```Python3
 # Lets say we want to add 5 numbers we will write a function and pass 5 parameters
@@ -179,4 +179,43 @@ def addition(*args):
         total+=num
     return total
 #This is better function now
+#args parameter will say the input in the tuple
+```
+
+```Python3
+# **kwargs parameter this will save the arguements passed into a dictionary 
+# **kwargs is standard keyword used in the community
+def color(**kwargs):
+    for person,color in kwargs.item():
+        print(f"{person}'s favorite color is {color}")
+
+```
+
+
+## Parameter Odering
+
+1) Parameters
+2) **args
+3) Default Parameters
+4) **kwargs
+
+```Python
+def odering(a,b,**args,name='john',**kwargs):
+    return [a,b,**args,name='john',**kwargs]
+```
+
+## List Unpacking
+
+* Passing *values* to unpack the tuples and pass them as arguements in the function
+
+```python3
+def addition(*args):
+    total = 0
+    for num in args:
+        total+=num
+    return total
+x = [1,2,3,4]
+# Now we will pass the list inside of the function
+
+print(addition(*x))
 ```
