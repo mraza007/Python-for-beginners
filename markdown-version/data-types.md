@@ -28,5 +28,5 @@ my_frozen_set = frozenset(my_set) # this freezes my_set
 
 ##### Important Note
 * Python is dynamically typed language it means that variable can be changed readily but its different in languages like JAVA, C++ C or etc where we have to specify the variable type thats why they are called statically typed languages
-**None Key Word in Python is just like Null**
-**We can use type() Function to see the data type**
+* **None Key Word in Python is just like Null**
+* **We can use type() Function to see the data type**
