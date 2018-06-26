@@ -1,5 +1,5 @@
 #### Expressions
-* An expression is an combination of variables, values and operators.
+* An expression is a combination of variables, values and operators.
 * Python Interpreter evalutes the expression to get the values.
 
 ```Python3
@@ -14,7 +14,7 @@
 
 
 #### Statements
-* An statement is an piece of code that do some actions.
+* An statement is a piece of code that do some actions.
 * Python Interpreter executes the statements.
 
 ```Python3
