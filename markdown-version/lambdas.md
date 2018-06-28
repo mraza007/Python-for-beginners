@@ -25,3 +25,43 @@ print(list(x))
 ```
 
 #### filter() Function
+* It takes a list/tuple and filters based on the given condition
+* The lambda function needs to be a boolean it can be either true or false
+```python3
+x = [1,2,3,4,5,6,7,8]
+names = ['alex','john','aneesa','aidan','amina','jill','jackson']
+data = [
+  {'username' : 'alex_1'},
+  {'username' : 'axis_07'},
+  {'username' : 'aaa'},
+  {'username' : 'asthetic'},
+  {'username' : 'bob'},
+  {'username' : 'jason_07'},
+  {'username' : 'razer_07'},
+  {'username' : 'pythonista'}
+]
+# A function that will print the usernames with more than 4 characters
+usernames = list(filter(lambda u:len(u['username']) > 4 , data))
+for name in usernames:
+  print(name['username'])
+
+# A new list with the multiples of two and less than 10
+print('\n')
+new_list = list(map(lambda num: num*2, filter(lambda num: num < 6   ,x)))
+print(new_list)
+print('\n')
+for nums in new_list:
+  print(nums)
+
+# filter names starting with J and adding them to group 1 and names starting with a goes to group_2
+
+group_1 = filter(lambda n:n[0]=='j',names)
+print(list(group_1))
+
+group_2 = filter(lambda n:n[0]=='a',names)
+print(list(group_2))
+
+# We can also use the list comprehension but it's better to understand how the map() and filter() works
+```
+
+#### Any() and all() built in function
