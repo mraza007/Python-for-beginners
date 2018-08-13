@@ -18,3 +18,5 @@ This repo is focused towards people who are learning Python for the first time. 
 Feel Free to fork this repo and contribute if you think I missed something.
 and if you have any questions dm me on  [twitter](http://www.twitter.com/muhammad_o7)
 [DJANGO And Python Tutorial](https://github.com/danielquinn/Python-Django-for-PHP-Nerds) 
+ ### Note
+ If you are using this repo to learn then you should watch 
