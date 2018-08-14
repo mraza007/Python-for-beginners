@@ -65,3 +65,19 @@ print(list(group_2))
 ```
 
 #### Any() and all() built in function
+* all() takes the iterables and return of they are true or not
+```python
+list = [1,2,3,4]
+all(list)
+#This will return true since all the values are true
+# You can also check if all numbers are divisible by two in list
+```
+
+Lets say you want to check if every name started in the list with the character C
+
+```python
+list = ['Casey','Charlie','Courtney','Cashmere']
+x = [name[0] == 'C' for name in list]
+print(all(x))
+#This will return True since every name starts with C
+```
