@@ -20,3 +20,4 @@ and if you have any questions dm me on  [twitter](http://www.twitter.com/muhamma
 [DJANGO And Python Tutorial](https://github.com/danielquinn/Python-Django-for-PHP-Nerds) 
  ### Note
  If you are using this repo to learn then you should watch 
+Ebook Coming Soon [Ebook](https://python-for-beginners.readthedocs.io/en/latest/)
