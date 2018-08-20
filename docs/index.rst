@@ -8,7 +8,7 @@ Welcome to Python for Beginners's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
 
 
 Getting Started
