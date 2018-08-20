@@ -15,8 +15,7 @@ Getting Started
 ===============
 
 .. toctree::
-	:maxdepth: 2
-	files/strings
+    files/strings
 
 
 
