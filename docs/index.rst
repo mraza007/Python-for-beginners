@@ -15,7 +15,7 @@ Getting Started
 ===============
 
 .. toctree::
-    files/strings
+    strings
 
 
 
