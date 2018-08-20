@@ -11,6 +11,15 @@ Welcome to Python for Beginners's documentation!
    :caption: Contents:
 
 
+Getting Started
+===============
+
+.. toctree::
+	:maxdepth: 2
+	files/strings.rst
+
+
+
 
 Indices and tables
 ==================
