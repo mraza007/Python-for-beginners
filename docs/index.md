@@ -9,6 +9,7 @@ That was the main goal in my mind while creating this repository.
 
 ## Your Help
 * In order to make this better I need your help to add more stuff to it and It can be anything related to python.
+* [Repo Link](https://github.com/mraza007/Python-for-beginners)
 
 
 #### Note
