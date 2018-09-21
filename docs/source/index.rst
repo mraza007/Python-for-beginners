@@ -8,9 +8,20 @@ Welcome to Python-for-beginners's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
 
+
+<<<<<<< HEAD:docs/source/index.rst
+=======
+Getting Started
+===============
+
+.. toctree::
+    strings
+
+
+
+>>>>>>> f14098ba3f0ea178423430bbbf9d943ecceee0e6:docs/index.rst
 
 Indices and tables
 ==================
