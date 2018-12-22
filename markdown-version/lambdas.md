@@ -81,3 +81,14 @@ x = [name[0] == 'C' for name in list]
 print(all(x))
 #This will return True since every name starts with C
 ```
+
+Generator Expressions
+- They are less memory consuming.
+- Readmore on [List vs Generators](https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehension)
+- ```python
+#A small test \
+import sys
+list_comp = [x for x in range(10)]
+gen = (x for x in range(10))
+print(f'The mem usage of a list {list_comp} and mem usage of gen {gen}')
+```
