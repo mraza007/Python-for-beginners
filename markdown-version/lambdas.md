@@ -148,3 +148,16 @@ print(a)
 b = max([1,2,3,4,5])
 print(b)
 ```
+
+### Reverse
+- This function reverses list,string or a iterator
+
+```python
+x = [1,2,3,4,5]
+x.reverse()
+# This will reverse a list
+
+for char in reversed("Hello"):
+  print(char)
+# This will print out reversed hello
+```
