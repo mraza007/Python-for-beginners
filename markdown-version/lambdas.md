@@ -85,10 +85,66 @@ print(all(x))
 Generator Expressions
 - They are less memory consuming.
 - Readmore on [List vs Generators](https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehension)
-- ```python
+- 
+```python
 #A small test \
 import sys
-list_comp = [x for x in range(10)]
-gen = (x for x in range(10))
+list_comp = sys.getsizeof([x for x in range(10)])
+gen = sys.getsizeof((x for x in range(10)))
 print(f'The mem usage of a list {list_comp} and mem usage of gen {gen}')
+```
+
+### Sorted
+- This is built in python function that can be used to sort elements in the list or tuple.
+
+```python
+x = [7,4,5,2,12]
+y = sorted(x,reverse=True)
+```
+This will sort the list.
+
+Another Example let say we have a dictionary of users and want to sort them.
+
+```python
+data = [
+{
+#
+'name':'John',
+'class':7,
+},
+{
+'name':'Zayn',
+'class':2,
+},
+{
+'name':'Aquaman',
+'class':11,
+},
+{
+'name':'Tony',
+'class':12,
+},
+{
+'name':'Harry',
+'class':5
+}
+  
+]
+
+sorted_dict = sorted(data,key=lambda user:user['class'])
+
+print(sorted_dict) 
+```
+
+### Min and Max Function
+
+- This is simple function that returns min or max in the list or tuple.
+
+```python
+a = min([1,2,3,4,5])
+print(a)
+# This returns 1
+# if we do max
+b = max([1,2,3,4,5])
+print(b)
 ```
