@@ -161,3 +161,33 @@ for char in reversed("Hello"):
   print(char)
 # This will print out reversed hello
 ```
+
+
+### Extras
+- `abs()` this will return the absolute value.
+- `sum()` this will sum a iterable like a list or tuple.
+- `round()` This is going to round the number.
+
+```python
+x = -10
+abs(x) # this is going to print 10
+d = [1,2,3,4,5]
+sum(d) # This will print the sum of the list.
+f = 10.5
+round(f) #This will print 11
+```
+
+### Zip() 
+
+- Make an iterator that aggregates elements from each of the iterables.
+- Returns an iterator of tuples, where the i-th tuple contains the i-th elements from each of the arguement sequences or iterables.
+- the iterator stops when the shortest input iterable is exhausted.
+
+```python
+x = [1,2,3]
+y= [4,5,6]
+zip(x,y)
+# This will print(1,4),(2,5),(3,6)
+# We can also convert it to a dictionary 
+dict(zip(x,y))
+```
