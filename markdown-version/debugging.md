@@ -52,3 +52,14 @@ else:
 finally:
     print("I will run no matter what hehehe")
 ```
+
+## Debugging our code using `PDB`
+
+- In order to set a breakpoint we use `pdb.set_trace()`
+- After setting a breakpoint then we can go line by line through our code.
+
+#### Common `PDB` commands
+- `l` List 
+- `n` next line
+- `p` print
+- `c` continue
