@@ -15,6 +15,7 @@ This repo is focused towards people who are learning Python for the first time. 
 * [Functions](markdown-version/functions.md)
 * [Lambdas](markdown-version/lambdas.md)
 * [Debugging](markdown-version/debugging.md)
+* [Modules](markdown-version/modules.md)
 
 
 Feel Free to fork this repo and contribute if you think I missed something.
