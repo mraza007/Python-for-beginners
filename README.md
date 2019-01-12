@@ -1,7 +1,7 @@
 # Python For Beginners
 This repo is focused towards people who are learning Python for the first time.  Therefore I have created this repo to save Python-related notes that will help beginners like me.
-#### This is hosted here
-[Online Version](https://python-for-beginners.readthedocs.io/)
+<!-- #### This is hosted here
+[Online Version](https://python-for-beginners.readthedocs.io/) -->
 # Table of Contents
 
 * [Variables](markdown-version/variables.md)
