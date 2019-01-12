@@ -15,3 +15,20 @@ List can be found here [LIST OF MODULES](https://docs.python.org/3/py-modindex.h
 
 ## Custom Modules
 Custom module is just file with python code.
+
+##### For Example
+
+```python
+# file1.py
+def hello():
+    return "Hello"
+def hey(name):
+    return f'Hey {name}'
+```
+
+```python
+# Importing a custom module
+import file1 as fn
+fn.hello()
+fn.hey('Jake')
+```
