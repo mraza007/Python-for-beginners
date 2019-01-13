@@ -28,10 +28,8 @@ print(list(x))
 ```Python
 x = ['john','jason','tony']
 print(x[0]) # This will john
-print(x[0]) # This will jason
-print(x[0]) # This will tony
-print(x[1])
-print(x[2])
+print(x[1]) # This will jason
+print(x[2]) # This will tony
 ```
 
 * We use built in python **in** keyword to see if the item exists in the list
@@ -65,10 +63,10 @@ while i < len(list):
 ```Python
 x = [1,2,3,4,5]
 x.append([5,6,7,8])
-# This print [1,2,3,4,5,[6,7,8,9]]
+# This print [1,2,3,4,5,[5,6,7,8]]
 #Lets use the extend method on this
 x.extend([5,6,7,8,9])
-#This will print out [1,2,3,4,5,6,7,8,9]
+#This will print out [1,2,3,4,5,5,6,7,8,9]
 ```
 * if want to add one item to the end of the list use append() if you are adding more than one item use extend()
 * insert() method is used to add the item to the given position in the list
