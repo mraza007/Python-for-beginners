@@ -2,6 +2,7 @@
 This repo is focused towards people who are learning Python for the first time.  Therefore I have created this repo to save Python-related notes that will help beginners like me.
 <!-- #### This is hosted here
 [Online Version](https://python-for-beginners.readthedocs.io/) -->
+
 # Table of Contents
 
 * [Variables](markdown-version/variables.md)
@@ -18,9 +19,10 @@ This repo is focused towards people who are learning Python for the first time. 
 * [Modules](markdown-version/modules.md)
 
 
-Feel Free to fork this repo and contribute if you think I missed something.
-and if you have any questions dm me on  [twitter](http://www.twitter.com/muhammad_o7)
-[DJANGO And Python Tutorial](https://github.com/danielquinn/Python-Django-for-PHP-Nerds) 
- ### Note
- If you are using this repo to learn then you should watch 
+## Contribute
+Feel Free to fork this repo and contribute if you think I missed something important.
+This is available under MIT License.
+
+
+If you have any questions dm me on  [twitter](http://www.twitter.com/muhammad_o7) I would be happy to help you out with your queries.
 
