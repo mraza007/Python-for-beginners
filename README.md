@@ -18,6 +18,9 @@ This repo is focused towards people who are learning Python for the first time. 
 * [Debugging](markdown-version/debugging.md)
 * [Modules](markdown-version/modules.md)
 
+## Additional Sections
+* [Object Oriented Programming](docs/OOP)
+
 
 ## Contribute
 Feel Free to fork this repo and contribute if you think I missed something important.
