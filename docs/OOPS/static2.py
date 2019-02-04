@@ -40,3 +40,10 @@ mob3.purchase()
 disable_discount(list_of_mobiles)
 
 mob4.purchase()
+
+
+'''
+However, in our current approach, each object has discount as an attribute. 
+If we change the value for one object, it does not affect the other object. 
+If we have to change, we have to change for all the objects, one by one.
+'''
