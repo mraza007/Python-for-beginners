@@ -17,6 +17,7 @@ This repo is focused towards people who are learning Python for the first time. 
 * [Lambdas](markdown-version/lambdas.md)
 * [Debugging](markdown-version/debugging.md)
 * [Modules](markdown-version/modules.md)
+* [Iterators & Generators](markdown-version/iterators-generators.md)
 
 ## Additional Sections
 * [Object Oriented Programming](docs/OOP)
