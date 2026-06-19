@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python for Beginners — Interactive Course</title>
+  <meta name="description" content="Learn Python from scratch — read the lessons and run real Python right in your browser." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <div class="brand">
+      <span class="brand-logo">🐍</span>
+      <span class="brand-name">Python for Beginners</span>
+    </div>
+    <div class="py-status" id="py-status" title="Python engine status">
+      <span class="dot"></span><span class="label">Python: not loaded</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <nav id="nav"></nav>
+      <p class="sidebar-foot">Runs 100% in your browser with
+        <a href="https://pyodide.org" target="_blank" rel="noopener">Pyodide</a>.
+        Nothing is uploaded.</p>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+
+    <main class="content" id="content">
+      <!-- lesson renders here -->
+    </main>
+  </div>
+
+  <!-- marked: render markdown lessons -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <!-- pyodide: run Python in the browser -->
+  <script src="https://cdn.jsdelivr.net/npm/pyodide@314.0.0/pyodide.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
