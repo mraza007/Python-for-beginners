@@ -1,2 +1,13 @@
 Pipfile
 Pipfile.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
